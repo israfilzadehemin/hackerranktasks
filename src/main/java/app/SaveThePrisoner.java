@@ -9,7 +9,6 @@ public class SaveThePrisoner {
     public static int saveThePrisoner(int n, int m, int s) {
 
         int unlucky = (m + s - 1) % n;
-
         return unlucky == 0 ? n : unlucky;
 
     }
